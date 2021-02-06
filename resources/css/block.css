@@ -1,0 +1,50 @@
+body{
+    position: relative;
+}
+#menu{
+    position: fixed;
+    margin: auto;
+    margin-left: 70%;
+    margin-top: -5%;
+    color: black;
+}
+#block{
+    display: none;
+    position: absolute;
+    position: fixed;
+    /* height: 88vh; */
+    width: 100vw;
+    background-image: linear-gradient(rgb(135,80,156,.9),rgb(135,80,156,.9));
+    right: 100vw;
+    top: 15vh;
+    font-size: 15px;
+}
+#block .mobile-menu-box a{
+    font-size: 10px ;
+}
+#block .mobile-menu-box a p{
+    font-size: 20px ;
+}
+
+.mobile-menu{
+    padding: 15px 10px 15px 10px;
+}
+.mobile-menu p{
+    display: inline-block;
+    margin-left: 20%;
+    font-weight: bolder;
+    font-size: 8vw;
+    color: blanchedalmond;
+}
+i{
+    color: blanchedalmond;
+}
+
+@media(max-width: 1000px){
+    #block{
+        display: inline-block;
+    }
+    #block hr{
+        display: block;
+    }
+}
